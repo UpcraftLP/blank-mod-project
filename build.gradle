@@ -33,7 +33,7 @@ else if(project.hasProperty('dev_username')) {
 }
 
 version = "${project.mc_version}-${project.mod_version}"
-group= project.base_package // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group = project.maven_group // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 //noinspection GroovyUnusedAssignment
 archivesBaseName = project.modid
 
