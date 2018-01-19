@@ -1,4 +1,4 @@
-package mod.upcraftlp.colorfulsheep;
+package com.github.upcraftlp.modid;
 
 import net.minecraft.util.text.TextFormatting;
 
@@ -7,7 +7,7 @@ import java.time.Year;
 public class Reference {
 
     //Version
-    public static final String MCVERSIONS = "[1.11, 1.12)";
+    public static final String MCVERSIONS = "[1.12, 1.13)";
     public static final String VERSION = "@VERSION@";
 
     //Misc

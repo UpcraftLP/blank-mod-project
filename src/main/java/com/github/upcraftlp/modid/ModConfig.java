@@ -1,16 +1,12 @@
-package mod.upcraftlp.modid;
+package com.github.upcraftlp.modid;
 
-import com.google.common.collect.Maps;
-import net.minecraft.item.EnumDyeColor;
 import net.minecraftforge.common.config.Config;
 import net.minecraftforge.common.config.ConfigManager;
 import net.minecraftforge.fml.client.event.ConfigChangedEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-import java.util.Map;
-
-import static mod.upcraftlp.modid.Reference.MODID;
+import static com.github.upcraftlp.modid.Reference.MODID;
 
 /**
  * @author UpcraftLP
@@ -18,6 +14,7 @@ import static mod.upcraftlp.modid.Reference.MODID;
 @Config(modid = MODID, name = "craftdevmods/" + MODID) //--> /config/craftdevmods/modid.cfg
 public class ModConfig {
 
+    @Mod.EventBusSubscriber(modid = MODID)
     public static class Handler {
 
         @SubscribeEvent

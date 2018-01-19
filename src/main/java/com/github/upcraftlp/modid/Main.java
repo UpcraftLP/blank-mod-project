@@ -1,4 +1,4 @@
-package mod.upcraftlp.modid;
+package com.github.upcraftlp.modid;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -6,7 +6,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import static mod.upcraftlp.modid.Reference.*;
+import static com.github.upcraftlp.modid.Reference.*;
 
 @Mod(
         certificateFingerprint = FINGERPRINT_KEY,
