@@ -1,0 +1,16 @@
+[
+{
+  "modid": "${modid}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "${url}",
+  "updateUrl": "${update_url}",
+  "authorList": ["UpcraftLP"],
+  "credits": "(C)${year} UpcraftLP",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
